@@ -42,7 +42,7 @@ pip3 install  poetry
 
 git下载代码
 进入目录
-poetry init
+poetry init  
 poetry env use python3.8 # 版本号已本地实际为准
 poetry add graia-ariadne
 poetry add graia-saya
