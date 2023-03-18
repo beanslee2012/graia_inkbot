@@ -4,20 +4,20 @@
 
 
 
-基于框架:
+基于框架:  
 https://github.com/mamoe/mirai/releases/
 
 https://github.com/GraiaProject/Ariadne
 
-mirai 加载器:
+mirai 加载器:  
 
-https://github.com/iTXTech/mirai-console-loader/releases
+https://github.com/iTXTech/mirai-console-loader/releases  
 
-登录验证用的插件（当前可用，根据上游的防控机制升级可能要随时更新或失效）:
+登录验证用的插件（当前可用，根据上游的防控机制升级可能要随时更新或失效）:  
 
-https://github.com/KasukuSakura/mirai-login-solver-sakura/releases
+https://github.com/KasukuSakura/mirai-login-solver-sakura/releases  
 
-https://github.com/cssxsh/fix-protocol-version/releases
+https://github.com/cssxsh/fix-protocol-version/releases  
 
 windows版本主要流程：
 ===================================
