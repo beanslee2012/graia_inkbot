@@ -67,6 +67,8 @@ poetry add graia-saya
 poetry add pillow
 poetry add requests
 
+把go_cqhttp的inkbot中的resource/目录下的文件夹及内容 复制到本项目的resource目录
+修改main.py的配置和config/bot.conf中的路径(qq号、秘钥等信息，代码没有写)
 poetry run python main.py
 
 ================
