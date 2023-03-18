@@ -24,6 +24,7 @@ windows版本主要流程：
 mirai和mcl
 
 mcl.cmd --update-package net.mamoe:mirai-api-http --channel stable-v2 --type plugin
+
 mcl.cmd -u
 启动成功后出现 >提示符
 /autoLogin add qq号 qq密码
@@ -32,26 +33,7 @@ mcl.cmd -u
 如果过程中提示短信或扫码验证等，按提示完成操作即可。
 
 修改mirai 端口
-config/net.mamoe.mirai-api-http/setting.yml
-adapters: 
-  - http
-  - ws
-debug: false
-enableVerify: true
-verifyKey: myqqbotINKbot2023
-singleMode: false
-cacheSize: 4096
-persistenceFactory: 'built-in'
-adapterSettings: 
-  http:
-    host: localhost
-    port: 17380
-    cors: [*]
-  ws:
-    host: localhost
-    port: 17380
-    reservedSyncId: -1
-
+config/net.mamoe.mirai-api-http/setting.yml中的端口（2处）
 
 ================
 
