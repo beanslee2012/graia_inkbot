@@ -1,7 +1,7 @@
 # graia_inkbot
-基于graia Ariadne 框架的斯普拉顿3（splatoon3） qq机器人
+基于graia Ariadne 框架的斯普拉顿3（splatoon3） qq机器人（建设中，基本可用）
 
-建设中：
+
 
 基于框架:
 https://github.com/mamoe/mirai/releases/
@@ -54,6 +54,7 @@ adapterSettings:
 
 
 ================
+
 pip3 install  poetry
 
 
@@ -69,6 +70,7 @@ poetry add requests
 poetry run python main.py
 
 ================
+
 qq群中
 、图
 、工
