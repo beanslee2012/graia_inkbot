@@ -1,5 +1,6 @@
 # graia_inkbot
-前阵子由于上游修改了防控机制go-cqhttp的机器人在大群不可用于。因此，临时基于graia Ariadne 框架开发了这个版本的斯普拉顿3（splatoon3） qq机器人（代码已基本可用）
+前阵子由于上游修改了防控机制导致基于go-cqhttp的机器人在大群不可用（目前go-cqhttp已更新解决）。  
+因此，临时基于graia Ariadne 框架开发了这个版本的斯普拉顿3（splatoon3） qq机器人（代码已基本可用）
 
 
 
@@ -57,8 +58,8 @@ poetry add pillow
 poetry add requests 
 
 ================
-运行：
-qq群中  
+运行：  
+qq群中    
 、图  
 、工  
 
