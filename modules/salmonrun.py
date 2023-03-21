@@ -100,6 +100,7 @@ async def hello(app: Ariadne, sender: Group, message: MessageChain, target: Unio
         base_img = base_img.crop((0,0,base_img.size[0]-60,base_img.size[1]/2)) #	
         base_img = circle_corner(base_img, radii)
         message = MessageChain(At(target.id),Plain('\n打工安排:'+ stime+ '-' + etime),Image(base64=img_to_b64(base_img)))
+        times = -1
         await app.send_message(sender, message)
  
        
