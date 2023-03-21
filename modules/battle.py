@@ -149,6 +149,7 @@ async def hello(app: Ariadne, sender: Group, message: MessageChain, target: Unio
         base_img=base_img.resize((int(base_img.size[0]*0.8), int(base_img.size[1]*0.8)),PIL.Image.ANTIALIAS)
         #rgb_img = base_img.convert('RGB')
         message = MessageChain(At(target.id),Plain('\n所处时段:'+ StartTimeR+ '-' + EndTimeR),Image(base64=img_to_b64(base_img)))
+        times = -1
         await app.send_message(sender, message)
 
 
